@@ -14,6 +14,7 @@ $(function() {
     var width = $(window).width();
     var height = $(window).height();
     $(".resources img").hide().appendTo(".playground").load(function() {
+        $(this).addClass('sprite')
         $(this).css('left', Math.random() * (width - $(this).width())).css('top', Math.random() * (height - $(this).height()));
         $(this).fadeIn(10000);
     });

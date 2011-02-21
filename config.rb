@@ -15,8 +15,8 @@
 
 # Helpers
 helpers do
-  def some_helper(*args)
-    "Helping"
+  def sprite_tag(name)
+    image_tag("cc/#{name}", :id => name[0..-5], :class => 'sprite')
   end
 end
 
