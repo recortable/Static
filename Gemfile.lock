@@ -20,6 +20,7 @@ GEM
     diff-lcs (1.1.2)
     eventmachine (0.12.10)
     extlib (0.9.15)
+    fastimage (1.2.8)
     haml (3.0.25)
     highline (1.6.1)
     http_router (0.5.3)
@@ -103,4 +104,5 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  fastimage
   middleman
